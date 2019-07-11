@@ -1,0 +1,43 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<!-- 
+     Copyright 2018-present Samsung Electronics France SAS, and other contributors
+     This Source Code Form is subject to the terms of the Mozilla Public
+     License, v. 2.0. If a copy of the MPL was not distributed with this
+     file, You can obtain one at http://mozilla.org/MPL/2.0/
+  -->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  
+  <body>
+  <script src="https://www.puck-js.com/puck.js"></script>
+  <script>
+    /*AFRAME.registerComponent('connect', {
+  
+      init: function() {
+        Puck.write('LED1.set();\n');
+      }
+    });*/
+
+    </script>
+<a-scene>
+    <a-box 
+           position="1 0 -3"
+           color="red"
+           connect
+           onclick="Puck.write('LED1.set();\n');">On!</a-box>
+  <a-box 
+           color="green"
+
+         position="-1 0 -3"
+
+         click="Puck.write('LED1.reset();\n');">Off!</a-box>
+
+    </a-scene>
+  <script>
+   Puck.modal(function(){Puck.write('LED1.write(0);\n');});
+   </script>
+  </body>
+  
+</html>
