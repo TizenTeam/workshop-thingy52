@@ -222,6 +222,9 @@ You can do exactly this kind of thing on your Thingy, but note that
 Advertising only works when the device **isn't connected to your PC**, which
 makes it slightly more frustrating for a workshop!
 
+To listen to the advetising you need an other device.
+
+
 ### A note on Advertising data
 
 Looking at the data we'd received, we have:
