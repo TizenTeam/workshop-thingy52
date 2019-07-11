@@ -15,9 +15,13 @@ We'll do this with the Espruino IDE.
 * First, go to http://www.espruino.com/ide **in an up to date Chrome Web Browser**
 * Click the connection icon in the top left
 
-Note: if using GNU/Linux you'll need to enable "experimental-web-platform-features" flag.
+Note: if using GNU/Linux
+you'll need to enable
+"experimental-web-platform-features" flag of google chrome.
 
 (Track [status](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md))
+
+
 
 ![](img/webide1.png)
 
